@@ -5,3 +5,8 @@ https://ggmouse.tistory.com/119
 https://sites.google.com/site/smcgbu/home/gongbu-iyagi/rankdenserankrownumbersun-wileulbanhwanhaneunhamsu
 
 dd
+
+
+Mysql tip
+
+When you use Group by follow Order.
