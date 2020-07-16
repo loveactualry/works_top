@@ -10,3 +10,7 @@ dd
 Mysql tip
 
 When you use Group by follow Order.
+
+
+#### 쿼리조회 인덱스 타는 경우
+https://winmargo.tistory.com/61
