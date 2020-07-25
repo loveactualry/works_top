@@ -28,3 +28,6 @@ mtcars %>%
 
 
 ## 출처: https://rfriend.tistory.com/522 [R, Python 분석과 프로그래밍의 친구 (by R Friend)]
+
+
+ggplot(data, aes(x,y,colour=z)) + geom_point()
