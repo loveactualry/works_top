@@ -31,3 +31,5 @@ mtcars %>%
 
 
 ggplot(data, aes(x,y,colour=z)) + geom_point()
+
+힘들다.
