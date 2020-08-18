@@ -233,3 +233,7 @@ month_sum_rat_tidy <- gather(month_sum_rat, 'res_ratio_100', 'canc_ratio_100', '
 ggplot(week_sum_amt_tidy, aes(YW, value, fill=type)) + geom_bar(stat='identity')
 ggplot(week_sum_rat_tidy, aes(YW, value, fill=type)) + geom_bar(stat='identity')
 
+
+# 월별 n번째 주
+
+https://stackoverflow.com/questions/25199851/r-how-to-get-the-week-number-of-the-month
