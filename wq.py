@@ -37,3 +37,15 @@ https://datascienceschool.net/view-notebook/a49bde24674a46699639c1fa9bb7e213/
   날짜 처리
   
  https://predictors.tistory.com/26
+
+  
+  
+  - 특정 셀 카운트하기
+  df2 <- df %>% pivot_longer(
+    cols = starts_with("special"),
+    names_to = "special_rights",
+    names_prefix = "special",
+    values_to = "count",
+    values_drop_na = TRUE
+  ) %>% select(passed_count, count)
+df2
