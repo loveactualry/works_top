@@ -49,3 +49,17 @@ https://datascienceschool.net/view-notebook/a49bde24674a46699639c1fa9bb7e213/
     values_drop_na = TRUE
   ) %>% select(passed_count, count)
 df2
+
+
+
+
+# 금액 추출
+df_res_null$최근입찰결과_1_content <- str_replace_all(df_res_null$최근입찰결과_1_content, ',', '')
+#df_res_null$최근입찰가 <- grep('[1-9]',df_res_null$최근입찰결과_1_content) 
+df_res_null$매각가 <- gsub("[[:punct:]|[:alpha:]]", "", df_res_null$최근입찰결과_1_content)
+
+
+# 물건비고 " " 붙이기
+#df_res_null$물건비고_수정 <- paste(df_res_null$물건비고, sep = " ")
+#df_res_null$symbol <- '"'
+df_res_null$물건비고_수정 <- paste(c('"'), df_res_null$물건비고, c('"'), sep = "")
