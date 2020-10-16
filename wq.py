@@ -63,3 +63,7 @@ df_res_null$매각가 <- gsub("[[:punct:]|[:alpha:]]", "", df_res_null$최근입
 #df_res_null$물건비고_수정 <- paste(df_res_null$물건비고, sep = " ")
 #df_res_null$symbol <- '"'
 df_res_null$물건비고_수정 <- paste(c('"'), df_res_null$물건비고, c('"'), sep = "")
+
+
+# mysql 정규 표현식
+https://intro0517.tistory.com/171
