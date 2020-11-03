@@ -167,5 +167,13 @@ FROM
 products p2 
 ;
 
-  
+		       
+		
  
+		       
+		       
+		       
+ 
+# 판다스 if 처리
+				   
+https://medium.com/@ODSC/creating-if-elseif-else-variables-in-python-pandas-7900f512f0e4
