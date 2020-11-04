@@ -16,3 +16,7 @@ When you use Group by follow Order.
 https://winmargo.tistory.com/61
 
 코드 올리고싶다..
+
+
+alias 선택은 having 절부터
+http://blog.naver.com/PostView.nhn?blogId=pcgun70&logNo=220744224891
