@@ -1,0 +1,10 @@
+- install anaconda
+- install gitbash
+  - git bash 이후 anaconda와 gitbash 연결
+  https://azanewta.tistory.com/29
+
+
+- python env setting
+conda create --n [env_name] python=3.7
+
+
