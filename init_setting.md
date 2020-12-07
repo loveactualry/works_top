@@ -15,4 +15,8 @@
 - python env setting
 conda create --n [env_name] python=3.7
 
+- WSL 설치(version 2)
+https://docs.microsoft.com/ko-kr/windows/wsl/install-win10
 
+- WSL ipython browser 안띄우게 하기
+https://stackoverflow.com/questions/31953518/start-ipython-notebook-server-without-running-web-browser
