@@ -1,0 +1,11 @@
+install.packages("reticulate")
+
+library(reticulate)
+use_python("/usr/local/bin/python")
+
+library(reticulate)
+use_virtualenv("myenv")
+
+
+설정정보
+py_config()
